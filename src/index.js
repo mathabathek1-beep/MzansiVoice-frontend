@@ -1,10 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+export default function App() {
+  return (
+    <div style={{ textAlign: 'center', padding: '50px' }}>
+      <h1>🇿🇦 MzansiVoice</h1>
+      <p>React is working! If you see this, the frontend is fine.</p>
+      <p>Now we can add the full app code.</p>
+    </div>
+  );
+}
